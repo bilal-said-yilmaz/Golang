@@ -10,7 +10,7 @@ func main() {
 
 	fmt.Printf("%v	%T\n", x, x)
 	fmt.Printf("%v	%T\n", y, y)
-	// Type conversion type(value) -> int(y) = 11.1 -> 11
+    Type conversion type(value) -> int(y) = 11.1 -> 11
 
 	fmt.Println(x + int(y)) // But only the value changes for that row and the data type does not change at all
 	fmt.Printf("%v	%T\n", y, y)
